@@ -2,4 +2,8 @@
 # bin/release <build-dir>
 
 echo "--- {}"
-bin/node cgi_server.js
+cat << EOF
+---
+default_process_types:
+  web: bin/node cgi_server.js
+EOF
