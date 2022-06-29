@@ -2,3 +2,4 @@
 # bin/release <build-dir>
 
 echo "--- {}"
+bin/node cgi_server.js
